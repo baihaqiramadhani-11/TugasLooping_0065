@@ -18,3 +18,6 @@ bool isPrima(int n) {
     }
     return true;
 }
+// ===== Function Cek Fibonacci =====
+bool isFibonacci(int n) {
+    if (n < 0) return false;
