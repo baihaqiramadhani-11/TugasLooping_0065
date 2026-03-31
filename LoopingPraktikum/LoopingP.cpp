@@ -63,3 +63,8 @@ void tampilMenu() {
     cout << "0. Keluar\n";
     cout << "Pilih menu: ";
 }
+// ===== Main =====
+int main() {
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
