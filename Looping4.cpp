@@ -95,3 +95,8 @@ int main() {
                 inputAngka();
                 tampilHasilPrima();
                 break;
+
+            case 2:
+                inputAngka();
+                tampilHasilFibonacci();
+                break;
