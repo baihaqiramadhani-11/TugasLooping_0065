@@ -85,3 +85,7 @@ void tampilMenu() {
 // MAIN FUNCTION
 // =============================================
 int main() {
+
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
