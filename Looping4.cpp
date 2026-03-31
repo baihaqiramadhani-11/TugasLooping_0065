@@ -100,3 +100,7 @@ int main() {
                 inputAngka();
                 tampilHasilFibonacci();
                 break;
+
+            case 0:
+                cout << "\nTerima kasih telah menggunakan program ini.\n";
+                return 0;
