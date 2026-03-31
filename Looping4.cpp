@@ -30,3 +30,13 @@ bool isPrima(int n) {
 bool isFibonacci(int n) {
     if (n < 0) return false;
     if (n == 0 || n == 1) return true;
+
+    int a = 0, b = 1, c;
+    while (true) {
+        c = a + b;
+        if (c == n) return true;
+        if (c > n) return false;
+        a = b;
+        b = c;
+    }
+}
