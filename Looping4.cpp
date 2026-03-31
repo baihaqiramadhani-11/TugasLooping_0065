@@ -104,3 +104,11 @@ int main() {
             case 0:
                 cout << "\nTerima kasih telah menggunakan program ini.\n";
                 return 0;
+
+             default:
+                cout << "\nPilihan tidak valid! Silakan pilih 0, 1, atau 2.\n";
+        }
+    }
+    
+    return 0;
+}
