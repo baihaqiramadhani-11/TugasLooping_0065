@@ -47,3 +47,11 @@ void tampilPrima() {
         cout << angka << " bukan bilangan prima.\n";
     }
 }
+// ===== Prosedur Output Fibonacci =====
+void tampilFibonacci() {
+    if (isFibonacci(angka)) {
+        cout << angka << " termasuk bilangan Fibonacci.\n";
+    } else {
+        cout << angka << " bukan bilangan Fibonacci.\n";
+    }
+}
