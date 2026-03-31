@@ -40,3 +40,13 @@ bool isFibonacci(int n) {
         b = c;
     }
 }
+
+// =============================================
+// PROSEDURAL (VOID FUNCTION)
+// =============================================
+
+// Prosedur untuk menerima input angka
+void inputAngka() {
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angka;
+}
