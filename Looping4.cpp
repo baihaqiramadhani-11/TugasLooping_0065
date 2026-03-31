@@ -50,3 +50,12 @@ void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> angka;
 }
+
+/ Prosedur untuk menampilkan hasil pengecekan prima
+void tampilHasilPrima() {
+    cout << "\nHasil : ";
+    if (isPrima(angka))
+        cout << angka << " adalah bilangan PRIMA." << endl;
+    else
+        cout << angka << " BUKAN bilangan prima." << endl;
+}
